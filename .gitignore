@@ -1,0 +1,17 @@
+node_modules/
+frontend/dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.pytest_cache/
+.env
+data/raw/**
+data/extracted/**
+data/chroma/**
+data/logs/**
+data/sources.json
+data/crawl_failures.json
+!data/**/.gitkeep
+*.pdf
